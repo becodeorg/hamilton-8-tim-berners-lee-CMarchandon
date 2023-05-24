@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/* whole body */
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #817a83;
+}
+
+body {
+    background-color: #ebebeb
+}
+
+section {
+    background-color: white;
+    margin: 15px 150px 15px 150px;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px 0 #d9d9d9, -2px 0 2px 0 #d9d9d9, 0 3px 3px 0 #d9d9d9;
+}
+
+/* first section */ 
+
+#firstSection {
+    text-align: center;
+}
+h1 {
+    color: #dd5555;
+}
+
+button {
+    background-color: #dd5555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+#portraitTimBerners {
+    border-radius: 50%;
+    border : solid;
+    border-width: 7px;
+    border-color: #cacaca;
+    margin: 20px;
 }
