@@ -1,44 +1,39 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 /* whole body */
-
 * {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #ebebeb;
 }
 
 h1, h2, h3, p {
     color: #817a83;
 }
 
-body {
-    background-color: #ebebeb
-}
-
 section {
     background-color: white;
-    margin: 27px 480px 27px 480px;
+    margin: 27px 480px;
     border-radius: 5px;
     box-shadow: 2px 0 2px 0 #d9d9d9, -2px 0 2px 0 #d9d9d9, 0 3px 3px 0 #d9d9d9;
 }
 
-
-/* first section */ 
-
+/* first section */
 #firstSection {
     text-align: center;
-   
-    
 }
+
 h1 {
     color: #dd5555;
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 h2 {
-    margin: 0px;
+    margin: 0;
     font-size: 30px;
     letter-spacing: -1px;
     font-weight: 500;
@@ -51,7 +46,6 @@ button {
     color: white;
     height: 60px;
     width: 200px;
-    margin: 0px;
     font-size: 23px;
     margin-bottom: 25px;
 }
@@ -65,46 +59,39 @@ button:hover {
     width: 150px;
     height: 150px;
     border-radius: 49%;
-    border : solid;
-    border-width: 7px;
-    border-color: #cacaca;
+    border: solid 7px #cacaca;
     margin-top: 30px;
 }
 
 @keyframes fade-in {
     100% {
-      opacity: 0;
+        opacity: 0;
     }
     0% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  .image-transition:hover {
+}
+
+.image-transition:hover {
     animation: fade-in 1s;
     opacity: 0;
-    
-  }
-
+}
 
 #www {
     width: 150px;
     height: 150px;
     border-radius: 49%;
-    border : solid;
-    border-width: 7px;
-    border-color: #cacaca;
+    border: solid 7px #cacaca;
     margin-top: 30px;
 }
 
 #firstText {
-    margin: 25px 35px 25px 35px;
+    margin: 25px 35px;
     text-align: justify;
     font-size: 23px;
 }
 
-/* Second section */ 
-
+/* Second section */
 #secondSection {
     display: flex;
     flex-direction: row;
@@ -117,8 +104,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 80px 35px 80px 35px;
-
+    margin: 80px 35px;
 }
 
 .logoName {
@@ -130,7 +116,6 @@ button:hover {
     font-weight: 800;
 }
 
-
 a, .a:visited {
     text-decoration: none;
     color: #deddda;
@@ -141,10 +126,10 @@ a:hover {
 }
 
 /* third section */
-
 #thirdSection {
     text-align: center;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .filmDescritpion {
@@ -168,8 +153,8 @@ h3 {
     align-items: center;
     text-align: justify;
     font-size: 22px;
-    margin-left: 35px ;
-    margin-right: 35px ;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .filmPoster {
