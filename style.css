@@ -117,19 +117,36 @@ a:hover {
 
 #thirdSection {
     text-align: center;
+    padding: 30px;
 }
 
 .filmDescritpion {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .filmText {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 35px ;
+    margin-right: 35px ;
 }
 
 .filmPoster {
-    height: 12px;
+    max-width: 15%;
+    height: 15%;
+    margin-top: 50px;
+    margin-left: 50px;
 }
