@@ -61,6 +61,33 @@ button:hover {
 }
 
 #portraitTimBerners {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 49%;
+    border : solid;
+    border-width: 7px;
+    border-color: #cacaca;
+    margin-top: 30px;
+}
+
+@keyframes fade-in {
+    100% {
+      opacity: 0;
+    }
+    0% {
+      opacity: 1;
+    }
+  }
+  
+  .image-transition:hover {
+    animation: fade-in 1s;
+    opacity: 0;
+    
+  }
+
+
+#www {
     width: 150px;
     height: 150px;
     border-radius: 49%;
@@ -126,8 +153,9 @@ a:hover {
     margin-top: 50px;
 }
 
-h2 {
+#hMovies {
     padding-top: 50px;
+    font-weight: 00;
 }
 
 h3 {
@@ -145,8 +173,7 @@ h3 {
 }
 
 .filmPoster {
-    max-width: 15%;
-    height: 15%;
-    margin-top: 50px;
+    max-width: 20%;
+    height: 20%;
     margin-left: 50px;
 }
